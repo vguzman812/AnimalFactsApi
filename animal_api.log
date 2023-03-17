@@ -1,0 +1,30 @@
+03-17 13:54 werkzeug     INFO     [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+03-17 13:54 werkzeug     INFO     [33mPress CTRL+C to quit[0m
+03-17 13:54 werkzeug     INFO      * Restarting with stat
+03-17 13:54 werkzeug     WARNING   * Debugger is active!
+03-17 13:54 werkzeug     INFO      * Debugger PIN: 118-170-091
+03-17 13:56 werkzeug     INFO     [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:6789
+03-17 13:56 werkzeug     INFO     [33mPress CTRL+C to quit[0m
+03-17 13:56 werkzeug     INFO      * Restarting with stat
+03-17 13:56 werkzeug     WARNING   * Debugger is active!
+03-17 13:56 werkzeug     INFO      * Debugger PIN: 118-170-091
+03-17 13:56 werkzeug     INFO     127.0.0.1 - - [17/Mar/2023 13:56:22] "[33mGET / HTTP/1.1[0m" 404 -
+03-17 13:56 resources.facts_resources INFO     Retrieving all facts, optionally filtered by name=None
+03-17 13:56 resources.facts_resources INFO     Facts successfully retrieved.
+03-17 13:56 werkzeug     INFO     127.0.0.1 - - [17/Mar/2023 13:56:27] "GET /api/facts HTTP/1.1" 200 -
+03-17 13:56 resources.facts_resources INFO     Retrieving all facts, optionally filtered by name=None
+03-17 13:56 resources.facts_resources INFO     Facts successfully retrieved.
+03-17 13:56 werkzeug     INFO     127.0.0.1 - - [17/Mar/2023 13:56:34] "GET /api/facts HTTP/1.1" 200 -
+03-17 13:56 werkzeug     INFO     127.0.0.1 - - [17/Mar/2023 13:56:34] "[33mGET /images/icons/gear.png HTTP/1.1[0m" 404 -
+03-17 13:57 werkzeug     INFO      * Detected change in '/Users/vincent/PycharmProjects/AnimalFactsApi/animal_api/api.py', reloading
+03-17 13:57 werkzeug     INFO      * Restarting with stat
+03-17 13:57 werkzeug     WARNING   * Debugger is active!
+03-17 13:57 werkzeug     INFO      * Debugger PIN: 118-170-091
+03-17 14:12 werkzeug     INFO     [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+03-17 14:12 werkzeug     INFO     [33mPress CTRL+C to quit[0m
+03-17 14:12 werkzeug     INFO      * Restarting with stat
+03-17 14:12 werkzeug     WARNING   * Debugger is active!
+03-17 14:12 werkzeug     INFO      * Debugger PIN: 118-170-091
