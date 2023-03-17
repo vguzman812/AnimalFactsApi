@@ -3,11 +3,11 @@ import logging
 from flask import request
 from flask_restful import Resource, abort
 from sqlalchemy.exc import IntegrityError
-from sqlalchemy.exc import NoResultFound
+from sqlalchemy.orm.exc import NoResultFound
 
-from animal_api.database import db
-from animal_api.models.fact import Fact
-from animal_api.schemas.fact_schema import FactSchema
+from database import db
+from models.fact import Fact
+from schemas.fact_schema import FactSchema
 
 FACTS_ENDPOINT = "/api/facts"
 logger = logging.getLogger(__name__)

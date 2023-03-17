@@ -1,5 +1,5 @@
 from marshmallow import Schema, fields, post_load
-from animal_api.models.fact import Fact
+from models.fact import Fact
 
 
 class FactSchema(Schema):

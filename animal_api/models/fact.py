@@ -1,4 +1,4 @@
-from animal_api.database import db
+from database import db
 
 
 class Fact(db.Model):
@@ -13,7 +13,7 @@ class Fact(db.Model):
     fact_id = db.Column(db.Integer, primary_key=True, autoincrement=True)
     animal_name = db.Column(db.String(50), nullable=False)
     source = db.Column(db.String(), nullable=False)
-    text = db.Column(db.String(1000), unique=True, nullable=False)
+    text = db.Column(db.String(1000), nullable=False)
     media_link = db.Column(db.String())
     wikipedia_link = db.Column(db.String(100), nullable=False)
 
