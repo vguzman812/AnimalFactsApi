@@ -4,6 +4,7 @@ from flask import request
 from flask_restful import Resource, abort
 from sqlalchemy.exc import IntegrityError
 from sqlalchemy.orm.exc import NoResultFound
+from random import randint
 
 from database import db
 from models.fact import Fact
@@ -25,9 +26,17 @@ class FactsResource(Resource):
         """
         if not id:
             name = request.args.get("animal_name")
+            random = request.args.get("random")
+            if random:
+                logger.info(
+                    f"Retrieving a random fact, optionally filtered by name={name}"
+                )
+
+                return self._get_random_fact(name), 200
+
             logger.info(
                 f"Retrieving all facts, optionally filtered by name={name}"
-            )
+                )
 
             return self._get_all_facts(name), 200
 
@@ -50,7 +59,7 @@ class FactsResource(Resource):
 
     def _get_all_facts(self, name):
         if name:
-            facts = Fact.query.filter_by(animal_name=name).all()
+            facts = Fact.query.filter_by(animal_name=name)
         else:
             facts = Fact.query.all()
 
@@ -58,6 +67,20 @@ class FactsResource(Resource):
 
         logger.info("Facts successfully retrieved.")
         return facts_json
+
+    def _get_random_fact(self, name):
+
+        if name:
+            facts = Fact.query.filter_by(animal_name=name).all()
+            fact = facts[randint(0, len(facts))]
+        else:
+            facts = Fact.query.all()
+            fact = facts[randint(0, len(facts))]
+
+        fact_json = FactSchema().dump(fact)
+
+        logger.info("Fact successfully retrieved.")
+        return fact_json
 
     def post(self):
         """
@@ -78,3 +101,5 @@ class FactsResource(Resource):
             abort(500, message="Unexpected Error!")
         else:
             return fact.fact_id, 201
+
+
