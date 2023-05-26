@@ -104,3 +104,122 @@
 03-20 05:53 werkzeug     INFO      * Restarting with stat
 03-20 05:53 werkzeug     WARNING   * Debugger is active!
 03-20 05:53 werkzeug     INFO      * Debugger PIN: 118-170-091
+03-20 06:55 werkzeug     INFO     [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+03-20 06:55 werkzeug     INFO     [33mPress CTRL+C to quit[0m
+03-20 06:55 werkzeug     INFO      * Restarting with stat
+03-20 06:55 werkzeug     WARNING   * Debugger is active!
+03-20 06:55 werkzeug     INFO      * Debugger PIN: 118-170-091
+03-20 06:56 werkzeug     INFO      * Detected change in '/Users/vincent/PycharmProjects/AnimalFactsApi/animal_api/api.py', reloading
+03-20 06:56 werkzeug     INFO      * Restarting with stat
+03-20 06:56 werkzeug     WARNING   * Debugger is active!
+03-20 06:56 werkzeug     INFO      * Debugger PIN: 118-170-091
+03-20 06:57 werkzeug     INFO      * Detected change in '/Users/vincent/PycharmProjects/AnimalFactsApi/animal_api/api.py', reloading
+03-20 06:57 werkzeug     INFO      * Restarting with stat
+03-20 06:57 werkzeug     WARNING   * Debugger is active!
+03-20 06:57 werkzeug     INFO      * Debugger PIN: 118-170-091
+03-20 06:57 werkzeug     INFO      * Detected change in '/Users/vincent/PycharmProjects/AnimalFactsApi/animal_api/resources/facts_resources.py', reloading
+03-20 06:57 werkzeug     INFO      * Restarting with stat
+03-20 06:58 werkzeug     INFO     [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+03-20 06:58 werkzeug     INFO     [33mPress CTRL+C to quit[0m
+03-20 06:58 werkzeug     INFO      * Restarting with stat
+03-20 06:58 werkzeug     WARNING   * Debugger is active!
+03-20 06:58 werkzeug     INFO      * Debugger PIN: 118-170-091
+03-20 06:58 werkzeug     INFO     127.0.0.1 - - [20/Mar/2023 06:58:54] "[33mGET / HTTP/1.1[0m" 404 -
+03-20 06:58 animal_api.resources.facts_resources INFO     Retrieving all facts, optionally filtered by name=None
+03-20 06:58 animal_api.resources.facts_resources INFO     Facts successfully retrieved.
+03-20 06:58 werkzeug     INFO     127.0.0.1 - - [20/Mar/2023 06:58:57] "GET /api/facts HTTP/1.1" 200 -
+03-20 07:02 werkzeug     INFO      * Detected change in '/Users/vincent/PycharmProjects/AnimalFactsApi/tests/integration/test_facts_resources.py', reloading
+03-20 07:02 werkzeug     INFO      * Restarting with stat
+03-20 07:02 werkzeug     WARNING   * Debugger is active!
+03-20 07:02 werkzeug     INFO      * Debugger PIN: 118-170-091
+03-20 07:06 werkzeug     INFO     [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+03-20 07:06 werkzeug     INFO     [33mPress CTRL+C to quit[0m
+03-20 07:06 werkzeug     INFO      * Restarting with stat
+03-20 07:06 werkzeug     WARNING   * Debugger is active!
+03-20 07:06 werkzeug     INFO      * Debugger PIN: 118-170-091
+03-20 07:06 werkzeug     INFO     127.0.0.1 - - [20/Mar/2023 07:06:43] "[33mGET / HTTP/1.1[0m" 404 -
+03-20 07:06 animal_api.resources.facts_resources INFO     Retrieving all facts, optionally filtered by name=None
+03-20 07:06 animal_api.resources.facts_resources INFO     Facts successfully retrieved.
+03-20 07:06 werkzeug     INFO     127.0.0.1 - - [20/Mar/2023 07:06:46] "GET /api/facts HTTP/1.1" 200 -
+03-20 07:09 werkzeug     INFO      * Detected change in '/Users/vincent/PycharmProjects/AnimalFactsApi/tests/integration/conftest.py', reloading
+03-20 07:09 werkzeug     INFO      * Restarting with stat
+03-20 07:09 werkzeug     WARNING   * Debugger is active!
+03-20 07:09 werkzeug     INFO      * Debugger PIN: 118-170-091
+03-20 07:10 werkzeug     INFO     [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+03-20 07:10 werkzeug     INFO     [33mPress CTRL+C to quit[0m
+03-20 07:10 werkzeug     INFO      * Restarting with stat
+03-20 07:10 werkzeug     WARNING   * Debugger is active!
+03-20 07:10 werkzeug     INFO      * Debugger PIN: 118-170-091
+03-20 07:11 werkzeug     INFO     127.0.0.1 - - [20/Mar/2023 07:11:03] "[33mGET / HTTP/1.1[0m" 404 -
+03-20 07:11 animal_api.resources.facts_resources INFO     Retrieving all facts, optionally filtered by name=None
+03-20 07:11 animal_api.resources.facts_resources INFO     Facts successfully retrieved.
+03-20 07:11 werkzeug     INFO     127.0.0.1 - - [20/Mar/2023 07:11:07] "GET /api/facts HTTP/1.1" 200 -
+03-20 07:12 werkzeug     INFO      * Detected change in '/Users/vincent/PycharmProjects/AnimalFactsApi/tests/integration/conftest.py', reloading
+03-20 07:12 werkzeug     INFO      * Restarting with stat
+03-20 07:12 werkzeug     WARNING   * Debugger is active!
+03-20 07:12 werkzeug     INFO      * Debugger PIN: 118-170-091
+03-20 07:12 werkzeug     INFO      * Detected change in '/Users/vincent/PycharmProjects/AnimalFactsApi/tests/integration/conftest.py', reloading
+03-20 07:12 werkzeug     INFO      * Restarting with stat
+03-20 07:12 werkzeug     WARNING   * Debugger is active!
+03-20 07:12 werkzeug     INFO      * Debugger PIN: 118-170-091
+03-20 07:12 werkzeug     INFO      * Detected change in '/Users/vincent/PycharmProjects/AnimalFactsApi/tests/integration/conftest.py', reloading
+03-20 07:12 werkzeug     INFO      * Restarting with stat
+03-20 07:12 werkzeug     WARNING   * Debugger is active!
+03-20 07:12 werkzeug     INFO      * Debugger PIN: 118-170-091
+03-20 07:12 werkzeug     INFO      * Detected change in '/Users/vincent/PycharmProjects/AnimalFactsApi/tests/integration/conftest.py', reloading
+03-20 07:12 werkzeug     INFO      * Restarting with stat
+03-20 07:12 werkzeug     WARNING   * Debugger is active!
+03-20 07:12 werkzeug     INFO      * Debugger PIN: 118-170-091
+03-20 07:18 werkzeug     INFO     127.0.0.1 - - [20/Mar/2023 07:18:30] "[33mGET / HTTP/1.1[0m" 404 -
+03-20 07:18 werkzeug     INFO      * Detected change in '/Users/vincent/PycharmProjects/AnimalFactsApi/tests/integration/test_facts_resources.py', reloading
+03-20 07:18 werkzeug     INFO      * Restarting with stat
+03-20 07:18 werkzeug     WARNING   * Debugger is active!
+03-20 07:18 werkzeug     INFO      * Debugger PIN: 118-170-091
+03-20 07:18 animal_api.resources.facts_resources INFO     Retrieving all facts, optionally filtered by name=None
+03-20 07:18 animal_api.resources.facts_resources INFO     Facts successfully retrieved.
+03-20 07:18 werkzeug     INFO     127.0.0.1 - - [20/Mar/2023 07:18:32] "GET /api/facts HTTP/1.1" 200 -
+03-20 07:18 animal_api.resources.facts_resources INFO     Retrieving all facts, optionally filtered by name=acorn woodpecker
+03-20 07:18 animal_api.resources.facts_resources INFO     Facts successfully retrieved.
+03-20 07:18 werkzeug     INFO     127.0.0.1 - - [20/Mar/2023 07:18:40] "GET /api/facts?animal_name=acorn%20woodpecker HTTP/1.1" 200 -
+03-20 07:18 werkzeug     INFO     127.0.0.1 - - [20/Mar/2023 07:18:41] "[33mGET /images/icons/gear.png HTTP/1.1[0m" 404 -
+03-20 07:19 werkzeug     INFO      * Detected change in '/Users/vincent/PycharmProjects/AnimalFactsApi/tests/integration/test_facts_resources.py', reloading
+03-20 07:19 werkzeug     INFO      * Restarting with stat
+03-20 07:19 werkzeug     WARNING   * Debugger is active!
+03-20 07:19 werkzeug     INFO      * Debugger PIN: 118-170-091
+03-23 09:14 werkzeug     INFO     [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+03-23 09:14 werkzeug     INFO     [33mPress CTRL+C to quit[0m
+03-23 09:14 werkzeug     INFO      * Restarting with stat
+03-23 09:14 werkzeug     WARNING   * Debugger is active!
+03-23 09:14 werkzeug     INFO      * Debugger PIN: 118-170-091
+03-23 09:14 werkzeug     INFO     127.0.0.1 - - [23/Mar/2023 09:14:52] "[33mGET / HTTP/1.1[0m" 404 -
+03-23 09:14 werkzeug     INFO     127.0.0.1 - - [23/Mar/2023 09:14:52] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+03-23 09:14 resources.facts_resources INFO     Retrieving all facts, optionally filtered by name=None
+03-23 09:14 resources.facts_resources INFO     Facts successfully retrieved.
+03-23 09:14 werkzeug     INFO     127.0.0.1 - - [23/Mar/2023 09:14:54] "GET /api/facts HTTP/1.1" 200 -
+03-23 09:15 werkzeug     INFO     [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+03-23 09:15 werkzeug     INFO     [33mPress CTRL+C to quit[0m
+03-23 09:15 werkzeug     INFO      * Restarting with stat
+03-23 09:15 werkzeug     WARNING   * Debugger is active!
+03-23 09:15 werkzeug     INFO      * Debugger PIN: 118-170-091
+03-23 09:18 werkzeug     INFO     [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+03-23 09:18 werkzeug     INFO     [33mPress CTRL+C to quit[0m
+03-23 09:18 werkzeug     INFO      * Restarting with stat
+03-23 09:18 werkzeug     WARNING   * Debugger is active!
+03-23 09:18 werkzeug     INFO      * Debugger PIN: 118-170-091
+04-07 13:39 werkzeug     INFO     [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+04-07 13:39 werkzeug     INFO     [33mPress CTRL+C to quit[0m
+04-07 13:39 werkzeug     INFO      * Restarting with stat
+04-07 13:39 werkzeug     WARNING   * Debugger is active!
+04-07 13:39 werkzeug     INFO      * Debugger PIN: 101-280-399
+04-07 13:54 werkzeug     INFO      * Detected change in '/Users/vincent/PycharmProjects/AnimalFactsApi/animal_api/resources/facts_resources.py', reloading
+04-07 13:54 werkzeug     INFO      * Restarting with stat
+04-07 13:54 werkzeug     WARNING   * Debugger is active!
+04-07 13:54 werkzeug     INFO      * Debugger PIN: 101-280-399

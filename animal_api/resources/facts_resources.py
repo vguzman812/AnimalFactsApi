@@ -10,7 +10,7 @@ from database import db
 from models.fact import Fact
 from schemas.fact_schema import FactSchema
 
-FACTS_ENDPOINT = "/api/facts"
+FACTS_ENDPOINT = "/"
 logger = logging.getLogger(__name__)
 
 
